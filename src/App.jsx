@@ -15,6 +15,8 @@ const router = createBrowserRouter([
     
     path: "/",
     element: <HomeLayout />,
+    // lets us choose a page as our error page
+    errorElement: <Error />,
     // 7-24-23
     // the children all get <HomeLayout /> passed into them,
     // as of now, all it does is add in a navbar 
