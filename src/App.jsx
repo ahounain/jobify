@@ -8,6 +8,7 @@ import {
   Login,
   DashBoardLayout,
   Error,
+  Stats
 } from "./pages";
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register />,
+      },
+      {
+        path: 'dashboard/stats',
+        element: <Stats />,
       }
     ],
   },
