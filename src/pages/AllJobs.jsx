@@ -1,6 +1,15 @@
+import {Navbar} from '../components'
+import Wrapper from '../assets/wrappers/Job'
+
 const AllJobs = () => {
   return (
-    <h1>AllJobs</h1>
+    <Wrapper>
+      <div> 
+        <Navbar />
+      </div>
+    </Wrapper>
+
+    
   )
 }
 export default AllJobs

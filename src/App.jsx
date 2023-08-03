@@ -8,7 +8,10 @@ import {
   Login,
   DashBoardLayout,
   Error,
-  Stats
+  Stats,
+  AllJobs,
+  AddJob,
+
 } from "./pages";
 const router = createBrowserRouter([
   {
@@ -46,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: 'dashboard/stats',
         element: <Stats />,
+      },
+      {
+        path: 'dashboard/all-jobs',
+        element: <AllJobs />,
       }
     ],
   },
